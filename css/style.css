@@ -1,0 +1,34 @@
+
+#shopping-cart{
+    right: 1.2em;
+    top: 1.2em;
+    position: fixed;
+}
+
+.product{
+    border: 1px solid black;
+    width: 75%;
+    padding: .5em;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.buy, .price{
+    position: absolute;
+    right: 1em;
+    padding: 10px;
+    background-color: red;
+}
+
+.buy{
+    top: 1em;
+}
+
+.price{
+    bottom: 1em;
+}
+
+img{
+    float: left;
+}
